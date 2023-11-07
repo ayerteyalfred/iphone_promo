@@ -53,6 +53,9 @@
         <section class="text-center mt-20 bg-[#F5F5F7] rounded-3xl p-[60px]">
             <h1 class="text-[25px] md:text-[40px] font-bold mb-[15px] text-black">Ben je klaar om te winnen?</h1>
             <p class="text-[16px] mb-[20px] md:w-[70%] max-w-[450px] m-auto">Klik op de knop, vul je gegevens in en maak kans. Succes!</p>
+            <Button color="#1D90F5" font_color="white">
+                <a href="">Ja ik doe mee</a>
+            </Button>
         </section>
 
         <div>
@@ -79,7 +82,7 @@
 </template>
 
 <script setup>
-
+import Button from './Button.vue';
 </script>
 
 <style scoped>
