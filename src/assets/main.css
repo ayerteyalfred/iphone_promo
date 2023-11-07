@@ -2,10 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Inter', sans-serif;
     font-size: 10px;
     font-weight: 300;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
 }
