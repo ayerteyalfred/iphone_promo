@@ -71,9 +71,10 @@
                 <p>©2023 Your-Leads</p>
 
                 <ul class="flex justify-between items-center gap-x-3">
-                    <li><a href="">Actievoorwaarden</a></li>
-                    <li><a href="">Privacy Policy</a></li>
-                    <li><a href="">Over ons</a></li>
+                    <li><router-link to="/terms-and-conditions">Actievoorwaarden</router-link></li>
+                    <li><router-link to="/privacy-policy">Privacy Policy</router-link></li>
+                    <li><router-link to="/about-us">Over ons</router-link></li>
+
                 </ul>
             </div>
         </div>
@@ -82,7 +83,7 @@
 </template>
 
 <script setup>
-import Button from './Button.vue';
+import Button from './Button.vue'
 </script>
 
 <style scoped>

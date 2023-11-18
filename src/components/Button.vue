@@ -1,9 +1,9 @@
 <template>
-    <div>
-        <button :style="{backgroundColor: color, color: font_color}" class="p-[8px_8px] rounded-[2.8rem] text-[16px] justify-center content-center w-full md:w-3/5 lg:w-1/4 cursor-pointer">
+    
+        <button :style="{backgroundColor: color, color: font_color}" class="p-[8px_8px] font-medium rounded-[2.8rem] text-[16px] justify-center content-center w-full md:w-[30%] lg:w-[20%] cursor-pointer">
             <slot />
         </button>
-    </div>
+    
 </template>
 
 <script setup>
