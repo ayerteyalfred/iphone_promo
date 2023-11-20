@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Hello World of iPhone</h1>
+    <router-view></router-view>
   </div>
 </template>
 
